@@ -8,7 +8,7 @@ You need to set the following environment variables with your data.
 - PASSWORD
 
 ## Rails App
-1. You need to install Ruby, this example is working fine with 2.6.2
+1. You need to install Ruby, this example is working fine with 2.7.3
 - **Windows**: https://rubyinstaller.org
 - **Linux**:
     - Ubuntu/Debian: `sudo apt-get install ruby-full`
@@ -23,7 +23,7 @@ You need to set the following environment variables with your data.
 If you don't have bundle installed, please install it first with ` gem install bundler` 
 Reference: https://bundler.io/
 
-3. To run the application with `bundle exec rails server`
+3. To run the application with `bundle exec rails server -b 0.0.0.0`
 
     > The application will be listening by default on **http://localhost:3000**
 
