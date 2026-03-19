@@ -1,12 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bson (4.9.2)
-    mongo (2.12.1)
-      bson (>= 4.8.2, < 5.0.0)
+    base64 (0.3.0)
+    bson (5.2.0)
+    mongo (2.23.0)
+      base64
+      bson (>= 4.14.1, < 6.0.0)
 
 PLATFORMS
-  x64-mingw32
+  x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   mongo
