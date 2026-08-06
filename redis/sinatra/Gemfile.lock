@@ -6,9 +6,9 @@ GEM
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
-    redis (5.4.1)
-      redis-client (>= 0.22.0)
-    redis-client (0.28.0)
+    redis (6.0.0)
+      redis-client (= 0.30.1)
+    redis-client (0.30.1)
       connection_pool
     sinatra (1.4.8)
       rack (~> 1.5)
