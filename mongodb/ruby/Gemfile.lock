@@ -2,10 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.3.0)
-    bson (5.2.0)
-    mongo (2.26.1)
+    bigdecimal (4.1.3)
+    bson (5.2.1)
+      base64
+      bigdecimal
+      ostruct
+    mongo (2.26.2)
       base64
       bson (>= 4.14.1, < 6.0.0)
+    ostruct (0.6.3)
 
 PLATFORMS
   x64-mingw-ucrt
